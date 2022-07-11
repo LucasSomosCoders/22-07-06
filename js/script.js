@@ -1,14 +1,14 @@
-var persona = new Object();
+let persona = new Object();
 persona.colorPelo = 'rubio';
 persona.barba = 'larga';
 persona.sexo = 'femenino';
-persona.fechaNac = 1980;
+persona.edad = 25;
 persona.caminar = function(){
-  console.log('caminando');
+  console.log('caminando.....');
 }
 
 
-var camion = {
+let camion = {
   color: 'red',
   anio: 1950,
   marca: 'Éscania',
@@ -19,3 +19,4 @@ var camion = {
 };
 
 camion['cubiertas'] = 4;
+
